@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1586423209988" createdUser="root" id="44426338:1715cf2f45c:-7e7c" type="test_resource" updatedTimestamp="1588251541707" updatedUser="ibmsys1" version="1.1">
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1586423209988" createdUser="root" id="44426338:1715cf2f45c:-7e7c" type="test_resource" updatedTimestamp="1588251781860" updatedUser="ibmsys1" version="1.1">
    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
    <resourceConfig description="" name="">
       <testTree>
@@ -30,7 +30,7 @@
          <editableResource id="-55d152cb:171cb033628:-7d57" selfDescribing="Specify commands, scripts or programs to execute, either locally or on a remote machine.  Optionally specify assertions on the output and/or store it into tags." type="run_command_action" version="1.0">
             <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
             <resourceConfig command="pwd&#10;&#10;" description="" encoding="UTF-8" killAfter="Test" killProcess="false" name="&quot;pwd  &quot;" waitUntilComplete="false">
-               <remote connectionType="LOCAL" host="" password="#com.ghc.1!aa8b" user="" userType="TAGGED" workingDir="/home/ibmsys1/RITBatchProcess/"/>
+               <remote connectionType="LOCAL" host="" password="#com.ghc.1!789a" user="" userType="TAGGED" workingDir="/home/ibmsys1/RITBatchProcess/"/>
                <fieldActionGroup>
                   <fieldAction enabled="false" type="1">
                      <fieldAction enabled="false" type="0"/>
@@ -49,7 +49,7 @@
                      <fieldAction enabled="false" type="0"/>
                   </fieldAction>
                </exitCodeFieldActionGroup>
-               <executeUser enabled="false" method="SUDASH"/>
+               <executeUser enabled="false" method="SUDASH" sudo="true"/>
             </resourceConfig>
          </editableResource>
          <editableResource id="44426338:1715cf2f45c:-7bd3" selfDescribing="Suspend execution of the test for a specified period (in milliseconds).  The delay may be fixed or random." type="sleep_action" version="1.0">
