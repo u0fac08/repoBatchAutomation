@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1588262934077" createdUser="ibmsys1" id="-55d152cb:171cb033628:-7aea" type="test_resource" updatedTimestamp="1588263041374" updatedUser="ibmsys1" version="1.1">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig description="" name="">
+      <testTree>
+         <editableResource id="-55d152cb:171cb033628:-7ab8" selfDescribing="The log actions enables you to output messages to console and a logging file." type="logging_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig append="true" description="" flush="true" loggingMessage="Testing&#10;" name="Testing" outputFile="" role="0"/>
+         </editableResource>
+      </testTree>
+      <tagDataStore inputMode="NONE" outputMode="NONE"/>
+      <testprops messageClearance="false"/>
+   </resourceConfig>
+</editableResource>
