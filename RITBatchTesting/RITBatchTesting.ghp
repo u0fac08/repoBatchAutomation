@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><_c buildID="I20200228_1557" certificateAuthority="KEY_1024_BITS" comments="Project created on April 30, 2020" creationVersion="10.0.2" domain="DOM1" extDocPrefix="" name="RITBatchTesting" owner="ibmsys1" rulesCacheUri="%%PROJECT/ROOT%%Rules" uuid="00000171-cac1-c18e-0000-253cf9fe52d6">
    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
-   <serverSettings ghRepositoryURL="https://localhost:5443/RTCP" trustSource="INBUILT_CA" trustStorePath="">
+   <serverSettings ghRepositoryURL="https://192.198.100.176:5443/RTCP" trustSource="INBUILT_CA" trustStorePath="">
       <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
-         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="com.ibm.db2.jcc.DB2Driver" password="#com.ghc.1!89580CB96A5340B2211F7E1712904AC4446B" recordFilters="" url="jdbc:db2://192.198.100.167:50000/samplepf" user="db2admin">
-            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!ba09" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
+         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="com.ibm.db2.jcc.DB2Driver" password="#com.ghc.1!c00a6A5540E2214C7E1212994AC0446CE349" recordFilters="" url="jdbc:db2://192.198.100.167:50000/samplepf" user="db2admin">
+            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!e4bd" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
             <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="db2admin" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
             <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
          </connectionParams>
       </dbConnectionParameters>
-      <automationServer enabled="true" hostname="192.198.100.176.nip.io" port="443" projectId="425200" projectName="RITBatchTestAutomation" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!38e7" trustStorePath=""/>
+      <automationServer enabled="true" hostname="192.198.100.176.nip.io" port="443" projectId="425200" projectName="RITBatchTestAutomation" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!4299" trustStorePath=""/>
    </serverSettings>
    <permissionsSettings autoLogin="true" host="" permFactId="ldap.permissions.factory.none" port="389" pswd="VYcnTV+n1UzpAEN8O8gRjqB0dW8LcwXwRh9yWJBGue8=$mZI902yE+aDUjli5qBJkugESnFxW0lJ3h1IwjApOMJM="/>
    <resultPublishers disableAll="false"/>
