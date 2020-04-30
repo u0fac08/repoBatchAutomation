@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1588244628385" createdUser="ibmsys1" id="14c4da6f:171cac1c23f:-7f6a" type="environment_resource" updatedTimestamp="1588244628385" updatedUser="ibmsys1" version="1.0">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig isOverridingSecretsNamespace="false"/>
+</editableResource>

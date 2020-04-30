@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1586423209988" createdUser="root" id="44426338:1715cf2f45c:-7e7c" type="test_resource" updatedTimestamp="1588239536987" updatedUser="root" version="1.1">
+   <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+   <resourceConfig description="" name="">
+      <testTree>
+         <editableResource id="-a872d95:1715569fd06:-7e99" selfDescribing="Specify commands, scripts or programs to execute, either locally or on a remote machine.  Optionally specify assertions on the output and/or store it into tags." type="run_command_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig command="./Flight01.sh &gt; Flight01.log&#10;&#10;" description="" encoding="UTF-8" killAfter="Test" killProcess="false" name="&quot;./Flight01.sh &gt; Flight01.log  &quot;" waitUntilComplete="false">
+               <remote connectionType="LOCAL" host="" password="#com.ghc.1!76c5" user="" userType="TAGGED" workingDir="/home/ibmsys1/RITBatchProcess"/>
+               <fieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction enabled="false" type="0"/>
+                  </fieldAction>
+                  <fieldAction description="Store copy of field in tag 'stdout'" tN="stdout" type="2">
+                     <dataAction type="Copy"/>
+                  </fieldAction>
+               </fieldActionGroup>
+               <stdErrFieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction enabled="false" type="0"/>
+                  </fieldAction>
+               </stdErrFieldActionGroup>
+               <exitCodeFieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction enabled="false" type="0"/>
+                  </fieldAction>
+               </exitCodeFieldActionGroup>
+               <executeUser enabled="false" method="SUDASH" sudo="true"/>
+            </resourceConfig>
+         </editableResource>
+         <editableResource id="44426338:1715cf2f45c:-7bd3" selfDescribing="Suspend execution of the test for a specified period (in milliseconds).  The delay may be fixed or random." type="sleep_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig description="" distributionType="0" maxDelay="0" minDelay="5000" name="for 5000ms"/>
+         </editableResource>
+         <editableResource id="44426338:1715cf2f45c:-7bd2" selfDescribing="Specify commands, scripts or programs to execute, either locally or on a remote machine.  Optionally specify assertions on the output and/or store it into tags." type="run_command_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig command="java -jar ExtractJobNumber.jar Flight01.log //192.198.100.167:50000/vtdb:&gt; f1.txt" description="" encoding="UTF-8" killAfter="Test" killProcess="false" name="&quot;java -jar ExtractJobNumber.jar Flight01.log //192.198.100.167:50000/vtdb:&gt; f1.txt&quot;" waitUntilComplete="true">
+               <remote connectionType="LOCAL" host="" password="#com.ghc.1!b8b0" user="" userType="TAGGED" workingDir="/home/ibmsys1/RITBatchProcess"/>
+               <fieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction enabled="false" type="0"/>
+                  </fieldAction>
+                  <fieldAction description="Store copy of field in tag 'stdout'" enabled="false" tN="stdout" type="2">
+                     <dataAction type="Copy"/>
+                  </fieldAction>
+               </fieldActionGroup>
+               <stdErrFieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction enabled="false" type="0"/>
+                  </fieldAction>
+               </stdErrFieldActionGroup>
+               <exitCodeFieldActionGroup>
+                  <fieldAction enabled="false" type="1">
+                     <fieldAction enabled="false" type="0"/>
+                  </fieldAction>
+               </exitCodeFieldActionGroup>
+               <executeUser enabled="false" method="SU" sudo="true"/>
+            </resourceConfig>
+         </editableResource>
+         <editableResource id="-a872d95:1715569fd06:-7e04" selfDescribing="The log actions enables you to output messages to console and a logging file." type="logging_action" version="1.0">
+            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+            <resourceConfig append="true" description="" flush="true" loggingMessage="%%stdout%%" name="%%stdout%%" outputFile="/home/ibmsys1/RITBatchProcess/test.log" role="0"/>
+         </editableResource>
+      </testTree>
+      <tagDataStore inputMode="NONE" outputMode="SELECT">
+         <tag defaultValue="" description="" name="stdout"/>
+      </tagDataStore>
+      <testprops messageClearance="false"/>
+   </resourceConfig>
+</editableResource>
