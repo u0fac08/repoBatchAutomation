@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1588240182763" createdUser="root" id="31dab55e:171ca6bc956:-7d92" type="test_suite_resource" updatedTimestamp="1588250343481" updatedUser="ibmsys1" version="1.0">
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1588250365167" createdUser="ibmsys1" id="-55d152cb:171cb033628:-7e37" type="test_suite_resource" updatedTimestamp="1588250374182" updatedUser="ibmsys1" version="1.0">
    <loggingConfiguration debug="false" writeStubEventsToDB="true"/>
    <resourceConfig>
-      <scenario continueOnFail="true" id="31dab55e:171ca6bc956:-7d91" type="scenario" version="1.0">
+      <scenario continueOnFail="true" id="-55d152cb:171cb033628:-7e36" type="scenario" version="1.0">
          <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
          <resourceConfig chkenv="false" name="Scenario" pacingtime="0.0" pacingtype="MIN_DURATION" parallel="false" slowfail="false" usepacing="false">
             <environmentTasks preventExecutionOnFailure="false"/>
