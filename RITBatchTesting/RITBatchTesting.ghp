@@ -3,13 +3,13 @@
    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
    <serverSettings ghRepositoryURL="https://192.198.100.176:5443/RTCP" trustSource="INBUILT_CA" trustStorePath="">
       <dbConnectionParameters maxConnections="1" poolName="DefaultPoolName">
-         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="com.ibm.db2.jcc.DB2Driver" password="#com.ghc.1!239cE343A2E87223117055270CB06A5840EE" recordFilters="" url="jdbc:db2://192.198.100.167:50000/samplepf" user="db2admin">
-            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!1932" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
+         <connectionParams CICSEnv="false" MVSEnv="false" ZOSEnv="false" driverClass="com.ibm.db2.jcc.DB2Driver" password="#com.ghc.1!83da117555210CEF6A5040E421137E1A1293" recordFilters="" url="jdbc:db2://192.198.100.167:50000/samplepf" user="db2admin">
+            <stubSettings maxProcCallCount="10000" maxResultSetRowCount="10000" maxRowCount="10000" password="#com.ghc.1!12cc" procedureLearningBehaviour="1" schema="" url="" useIntegratedDB="true" user=""/>
             <storedProcedureFilter catalogFilterEnabled="false" catalogFilterPattern="" procedureFilterEnabled="false" procedureFilterPattern="" schemaFilterEnabled="true" schemaFilterPattern="db2admin" storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
             <timestampFormatting timestampFormatZero="false" timestampFormattingEnabled="false" timestampPrecision="9"/>
          </connectionParams>
       </dbConnectionParameters>
-      <automationServer enabled="true" hostname="192.198.100.176.nip.io" port="443" projectId="425200" projectName="RITBatchTestAutomation" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!32e2" trustStorePath=""/>
+      <automationServer enabled="true" hostname="192.198.100.176.nip.io" port="443" projectId="425200" projectName="RITBatchTestAutomation" publishResults="true" trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!e919" trustStorePath=""/>
    </serverSettings>
    <permissionsSettings autoLogin="true" host="" permFactId="ldap.permissions.factory.none" port="389" pswd="VYcnTV+n1UzpAEN8O8gRjqB0dW8LcwXwRh9yWJBGue8=$mZI902yE+aDUjli5qBJkugESnFxW0lJ3h1IwjApOMJM="/>
    <resultPublishers disableAll="false"/>

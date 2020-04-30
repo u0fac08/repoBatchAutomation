@@ -1,36 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1586423209988" createdUser="root" id="44426338:1715cf2f45c:-7e7c" type="test_resource" updatedTimestamp="1588251781860" updatedUser="ibmsys1" version="1.1">
+<?xml version="1.0" encoding="UTF-8"?><editableResource createdTimestamp="1586423209988" createdUser="root" id="44426338:1715cf2f45c:-7e7c" type="test_resource" updatedTimestamp="1588262431577" updatedUser="ibmsys1" version="1.1">
    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
    <resourceConfig description="" name="">
       <testTree>
          <editableResource id="-a872d95:1715569fd06:-7e99" selfDescribing="Specify commands, scripts or programs to execute, either locally or on a remote machine.  Optionally specify assertions on the output and/or store it into tags." type="run_command_action" version="1.0">
             <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
             <resourceConfig command="./Flight01.sh &gt; Flight01.log&#10;&#10;" description="" encoding="UTF-8" killAfter="Test" killProcess="false" name="&quot;./Flight01.sh &gt; Flight01.log  &quot;" waitUntilComplete="false">
-               <remote connectionType="LOCAL" host="" password="#com.ghc.1!f2b0" user="" userType="TAGGED" workingDir="/home/ibmsys1/RITBatchProcess/"/>
-               <fieldActionGroup>
-                  <fieldAction enabled="false" type="1">
-                     <fieldAction enabled="false" type="0"/>
-                  </fieldAction>
-                  <fieldAction description="Store copy of field in tag 'stdout'" tN="stdout" type="2">
-                     <dataAction type="Copy"/>
-                  </fieldAction>
-               </fieldActionGroup>
-               <stdErrFieldActionGroup>
-                  <fieldAction enabled="false" type="1">
-                     <fieldAction enabled="false" type="0"/>
-                  </fieldAction>
-               </stdErrFieldActionGroup>
-               <exitCodeFieldActionGroup>
-                  <fieldAction enabled="false" type="1">
-                     <fieldAction enabled="false" type="0"/>
-                  </fieldAction>
-               </exitCodeFieldActionGroup>
-               <executeUser enabled="false" method="SUDASH"/>
-            </resourceConfig>
-         </editableResource>
-         <editableResource id="-55d152cb:171cb033628:-7d57" selfDescribing="Specify commands, scripts or programs to execute, either locally or on a remote machine.  Optionally specify assertions on the output and/or store it into tags." type="run_command_action" version="1.0">
-            <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
-            <resourceConfig command="pwd&#10;&#10;" description="" encoding="UTF-8" killAfter="Test" killProcess="false" name="&quot;pwd  &quot;" waitUntilComplete="false">
-               <remote connectionType="LOCAL" host="" password="#com.ghc.1!789a" user="" userType="TAGGED" workingDir="/home/ibmsys1/RITBatchProcess/"/>
+               <remote connectionType="LOCAL" host="" password="#com.ghc.1!c183" user="" userType="TAGGED" workingDir="/home/ibmsys1/RITBatchProcess/"/>
                <fieldActionGroup>
                   <fieldAction enabled="false" type="1">
                      <fieldAction enabled="false" type="0"/>
@@ -58,7 +33,7 @@
          </editableResource>
          <editableResource id="44426338:1715cf2f45c:-7bd2" selfDescribing="Specify commands, scripts or programs to execute, either locally or on a remote machine.  Optionally specify assertions on the output and/or store it into tags." type="run_command_action" version="1.0">
             <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
-            <resourceConfig command="java -jar ExtractJobNumber.jar Flight01.log //192.198.100.167:50000/vtdb:&gt; f1.txt" description="" encoding="UTF-8" killAfter="Test" killProcess="false" name="&quot;java -jar ExtractJobNumber.jar Flight01.log //192.198.100.167:50000/vtdb:&gt; f1.txt&quot;" waitUntilComplete="true">
+            <resourceConfig command="java -jar ExtractJobNumber.jar Flight01.log //192.198.100.167:50000/vtdb:&gt; f1.txt" description="" enabled="false" encoding="UTF-8" killAfter="Test" killProcess="false" name="&quot;java -jar ExtractJobNumber.jar Flight01.log //192.198.100.167:50000/vtdb:&gt; f1.txt&quot;" waitUntilComplete="true">
                <remote connectionType="LOCAL" host="" password="#com.ghc.1!b8b0" user="" userType="TAGGED" workingDir="/home/ibmsys1/RITBatchProcess"/>
                <fieldActionGroup>
                   <fieldAction enabled="false" type="1">
